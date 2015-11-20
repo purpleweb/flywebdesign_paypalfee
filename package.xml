@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+    <name>flywebdesign_paypalfee</name>
+    <version>1.0.2</version>
+    <stability>stable</stability>
+    <license>Commercial Software License</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Add a customer fee to payment methods, like PayPal.</summary>
+    <description>When we couldn't find an affordable and open source extension for adding a fee to PayPal payments, we developed one ourselves.&#xD;
+&#xD;
+It provides the functionality to set different payment fee/charge for all payment methods. If you want to charge additional fee depending on the selected payment method (and don't want to add additional charge in your product cost or don't want to increase any other cost) at your Magento store then this extension would be very helpful.&#xD;
+&#xD;
+In the backend you can fill in a fixed price or percentage of the subtotal to add to the amount the customer has to pay.</description>
+    <notes>Add additional payment fees to payment methods</notes>
+    <authors><author><name>Fly Webservices</name><user>flyweb</user><email>info@flywebservices.nl</email></author></authors>
+    <date>2015-08-19</date>
+    <time>13:33:21</time>
+    <contents><target name="mageetc"><dir name="modules"><file name="FlyWebservices_PaypalFee.xml" hash="607aec02ddad0dd7617ff1549d924d03"/></dir></target><target name="magelocal"><dir name="FlyWebservices"><dir name="PaypalFee"><dir name="Block"><dir name="Adminhtml"><dir name="Sales"><dir name="Order"><dir name="Creditmemo"><file name="Totals.php" hash="e9e7ed9cab7837d11596695fb0646306"/></dir><dir name="Invoice"><file name="Totals.php" hash="660a63c5f284b70f5b02dc32a49a2b9c"/></dir><file name="Totals.php" hash="bc7a964aa8e38684d0f2f27ea09ad9b4"/></dir><file name="Totals.php" hash="284b30b3d02530352faadd23b36887b4"/></dir></dir><dir name="Sales"><dir name="Order"><dir name="Creditmemo"><file name="Totals.php" hash="e4be15d2fc229866659c3061598ec8c2"/></dir><dir name="Invoice"><file name="Totals.php" hash="45661ce603d1e6fa66b27e4581c7cf66"/></dir><file name="Totals.php" hash="67c37c2b38edaa0a7c9e204d2789232b"/></dir></dir></dir><dir name="etc"><file name="config.xml" hash="ae6d62caa91b2845ffb7931fe2d25088"/><file name="system.xml" hash="cf05881d5a1dfe470ecbe5394738fc8d"/></dir><dir name="Helper"><file name="Data.php" hash="4bae5ba1d7d97aefb841c78fe58236d6"/></dir><dir name="Model"><dir name="Paypal"><file name="Cart.php" hash="852b84388dc1b54f77e9b70e02bd43a0"/></dir><dir name="Sales"><dir name="Order"><dir name="Creditmemo"><dir name="Total"><file name="Paymentcharge.php" hash="c39277d48b51ba17ca15c9a32de3ded4"/></dir></dir><dir name="Invoice"><dir name="Total"><file name="Paymentcharge.php" hash="e089b7081954613119c8e7388d581c06"/></dir></dir></dir><dir name="Quote"><dir name="Address"><dir name="Total"><file name="Paymentcharge.php" hash="edb08a84b2701430efd7d78b22fcccd6"/></dir></dir></dir></dir><dir name="System"><dir name="Config"><dir name="Source"><file name="Chargetype.php" hash="b07a8ccce0961874e4d465a64f958f4e"/></dir></dir></dir></dir><dir name="sql"><dir name="paymentcharge_setup"><file name="mysql4-install-0.1.0.php" hash="8135c131114d352519c92b44b10dfb45"/></dir></dir></dir></dir><dir name="Mage"><dir name="Paypal"><dir name="Model"><dir name="Api"><file name="Nvp.php" hash="f06c82f8d892174eb7d5ddedb931cde2"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
